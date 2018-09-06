@@ -1,0 +1,676 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+@font-face
+{
+    font-family: Arabic;
+    src: url(Tahoma.ttf);
+}
+
+@font-face
+{
+    font-family: Vodafone;
+    src: url(Vodafone.ttf);
+}
+.title h2
+{
+    font-size: 40px;
+    color: #e60000;
+    margin: 0 30px;
+    line-height: 60px;
+}
+.container-fluid
+{
+    background: #ebebeb;
+    margin: 0 auto 0 auto;
+    font-family: Trebuchet MS;
+    width: 100%;
+}
+.row-header, .container
+{
+    max-width: 950px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.col-1
+{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.col-2
+{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.col-2 ul li:first-child:hover, .col-2 ul li:last-child:hover
+{
+    color: #e60000;
+    cursor: pointer;
+}
+.row-header ul li
+{
+    display: inline-block;
+    padding: 13px;
+    color: #525252;
+    
+}
+.col-1 ul li
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+.col-1 ul li:last-child
+{
+    color: #e60000; 
+}
+.col-2 ul li:first-child
+{
+    font-size: 11px;
+    font-family: Arabic;
+}
+.col-2 ul li i
+{
+    font-size: 20px;
+}
+#users
+{
+    background-image: url('users.png');
+    position: relative;
+    background-size: cover;
+    top: 8px;
+}
+.row2-col1 img
+{
+    height: 60px;
+    width: 60px;
+}
+.row2-col1
+{
+    width: 10%;
+    float: left;
+}
+.row2-col2
+{
+    width: 90%;
+    background-color: #e60000;
+    float: right;
+    height: 60px;
+} 
+.row
+{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    font-family: Trebuchet MS;
+    margin-top: 12px;
+}
+.container ul li
+{
+    color: white;
+    font-size: 22px;
+    display: inline-block;
+    padding: 17px;
+}
+
+.search
+{
+    width: 30%;
+    float: right;
+    height: 100%;
+}
+.search input
+{
+    width: 87%;
+    height: 55%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background: #fff;
+    padding: 0 8px;
+    border-radius: 3px;
+    border: white;
+    top: 25%;
+    position: relative;
+}
+
+.nav
+{
+    width: 70%;
+    float: left;
+}
+.sitemap
+{
+    max-width: 950px;
+    margin: 0 auto 0 auto;
+}
+.sitemap-content
+{
+    max-width: 950px;
+    margin: auto;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.sitemap-content ul li
+{
+    display: inline-block;
+    font-size: 10px;
+}
+.sitemap-content p,.sitemap-content a
+{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 1px;
+    margin-right: 6px;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: Trebuchet MS;
+    text-align: left;
+}
+.sitemap-content a
+{
+    color: black;
+}
+#here
+{
+    font-size: 14px;
+    color: #e60000;
+    font-weight: bold;
+}
+#curr
+{
+    font-weight: bold;
+    
+}
+.main
+{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    font-family: Vodafone;
+    overflow: hidden;
+}
+.main-container
+{
+    max-width: 950px;
+    margin: auto;
+}
+.main-container p
+{
+    padding-left: 10px;
+    font-size: 19px;
+    font-weight: lighter;
+    color: #333;
+}
+.title p
+{
+    padding-left: 30px;
+}
+.title
+{
+    margin: auto;
+}
+.main-content
+{
+    overflow: hidden;
+    margin-top: 30px;
+}
+.text
+{
+    float: left;
+    width: 50%;
+    margin: auto;
+    line-height: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.photo
+{
+    float: right;
+    width: 50%;  
+    margin: auto;    
+    padding: 10px;
+    box-sizing: border-box;
+}
+.photo img
+{
+    max-width: 100%;
+    height: auto;
+}
+.main-row p
+{
+    font-size: 17px;
+    margin: 10px 0;
+    padding: 11px 26px;
+    background-color: rgba(228, 228, 228, 0.2);
+}
+.main-row li
+{
+    float: left;
+    margin: 13px 0px;
+    font-size: 32px;
+    width: 12px;
+    padding: 0 7px;
+}
+#first
+{
+    background-color: rgba(228, 228, 228, 1); 
+}
+#second
+{
+    background-color: rgba(228, 228, 228, 0.4);
+}
+.programs h2
+{
+    font-size: 29px;    
+}
+.programs-col1
+{
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.programs-col2
+{
+    float: right;
+    width: 50%;  
+    margin: auto;    
+    padding: 10px;
+    box-sizing: border-box;
+}
+.prg-img-col1
+{
+    background-image: url('go-green.jpg');
+}
+.prg-img-col2
+{
+    background-image: url('mobile.jpg');
+}
+.prg-img-col3
+{
+    background-image: url('intiative.jpg');
+}
+.prg-img-col1,.prg-img-col2,.prg-img-col3
+{
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+    height: 170px;
+    margin: 15px 0;
+}
+.details
+{
+    overflow: hidden;
+    height: 130px;
+    position: relative;
+}
+.details p
+{
+    font-size: 19px;
+}
+.more-btn
+{
+    width: 45%;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+}
+.view-btn 
+{
+    background-color: #9c2aa0;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
+.programs p, .programs-row2 p
+{
+    padding-left: 0;
+
+}
+
+
+/* Footer */
+.footer-row1, .footer-row2
+{
+    overflow: hidden;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.footer-row1
+{
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+.footer-content
+{
+    padding-left: 15px;
+}
+.footer
+{
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+}
+.footer-row1  ul 
+{
+    list-style: none;
+    float: left;
+    width: 16%;
+    box-sizing: border-box;    
+}
+.footer-row1 ul li:hover
+{
+    color: #e60000;
+    cursor: pointer;
+}
+.footer-row1 ul li,.footer-row1 p
+{
+    font-size: 12px;
+    font-family: Trebuchet MS;
+}
+.footer-row1 ul .heading
+{
+    font-size: 14px;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.cp, .social
+{
+    width: 50%;
+}
+.cp
+{
+    float: left;
+    font-size: 12px;
+    font-family: Trebuchet MS;
+}
+
+.contact
+{
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding-bottom: 17px;
+}
+.contact ul, .mobile-contact
+{
+    list-style: none;
+    padding-right: 38px;
+}
+
+.contact ul li, .mobile-contact ul li
+{
+    display: inline-block;
+}
+
+.contact ul li i
+{
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+    color: white;
+    float: left;
+    width: 27px;
+    height: 27px;
+    margin: 2px 0;
+}
+.contact ul li i:hover
+{
+    cursor: pointer;
+}
+#twitter i
+{
+    background: #55acee;
+    border-radius: 50%;
+}
+#fb i
+{
+    background: #3b5998;
+    border-radius: 50%;
+}
+#youtube i
+{
+    background: #ce3431;
+    border-radius: 50%;
+}
+#ggl i
+{
+    background: #dc4e41;
+    border-radius: 50%;
+}
+#insta i
+{
+    background: #3e6c92;
+    border-radius: 50%;
+} 
+
+/* Mobile */
+.mobile-header
+{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: none;
+    margin-top: 5px;
+}
+.action-area
+{
+    width: 50%;
+    margin: auto;
+    float: left;
+    padding: 3px 0;
+}
+.action-area ul li
+{
+    display: inline-block;
+}
+.action-area ul
+{
+    list-style: none;
+}
+#logo
+{
+    width: 50%;
+    margin: auto;
+    float: right;
+}
+#menu,#shop,#arabic, #logo
+{
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+#menu
+{
+    background-image: url(menu.png);
+    margin-left: 10px;
+}
+#shop
+{
+    background-image: url(shop.png);
+    margin-left: 5px;
+}
+#arabic
+{
+    background-image: url(arabic.png);
+}
+#logo
+{
+    background-image: url(768px-Vodafone_Logo_Speechmark.png);
+    margin: 5px 15px 0px 0px
+}
+.mobile-footer ul
+{
+    list-style: none;
+}
+.mobile-footer ul li
+{
+    margin: 12px 0px;
+    color: #ccc;
+}
+.mobile-footer
+{
+    margin-top: 15px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Trebuchet MS;
+    padding-top: 15px;
+    display: none;
+}
+.mobile-footer-left
+{
+    float: left;
+    width: 20%;
+}
+.mobile-footer-right
+{
+    float: right;
+    width: 80%;
+    box-sizing: border-box;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    
+}
+.mobile-contact ul li i
+{
+    font-size: 25px;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin: 2px 0;
+
+}
+.border
+{
+    width: 75%;
+    padding-left: 10px;
+    background-color: #4a4a4a;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 950px)
+{
+    .mobile-header,.mobile-footer
+    {
+        display: block;
+    }
+    .container-fluid,.row, .footer-row1, .footer-row2
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 785px)
+{
+    .title h2
+    {
+        color: black;
+        font-size: 28px;
+        margin-left: 15px;
+        padding-bottom: 5px;
+        line-height: normal;
+    }
+    .title p 
+    {
+        padding-left: 15px;
+        padding-right: 25px;
+    }
+    .main-container {
+        width: 100%;
+        margin: auto;
+    }
+    .main-content
+    {
+        padding: 10px;
+    }
+    .sitemap-content {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .text,.photo
+    {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+    .photo
+    {
+        order: 1;
+        margin-bottom: 10px;
+    }
+    .text
+    {
+        order: 2;
+    }
+    .programs-col1,.programs-col2
+    {
+        width: 100%;
+        float: none;
+    }
+    .prg-img-col1,.prg-img-col2,.prg-img-col3
+    {
+        width: 65%;
+    }
+    .details
+    {
+        min-height: 90px;
+    }
+    .more-btn
+    {
+        width: 100%;
+    }
+    .main-content
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .main-container p,.view-btn
+    {
+        font-size: 16px;
+    }
+    .programs h2 
+    {
+        font-size: 26px;
+    }
+    .sitemap-content p, .sitemap-content a {
+        margin-top: 7px;
+    }
+
+}
+    
